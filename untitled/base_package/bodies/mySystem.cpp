@@ -14,9 +14,6 @@ std::string mySystem::toString(){
     return toReturn;
 }
 mySystem::~mySystem() {
-    for(equation *e: equations){
-        delete e;
-    }
 }
 
 std::vector<equation*> mySystem::getEquations(){

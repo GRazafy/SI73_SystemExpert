@@ -1,5 +1,5 @@
 #include <iostream>
-#include "base_package/headers/equation.h"
+#include "base_package/headers/equation.h"a
 #include "base_package/headers/mySystem.h"
 
 int main() {
@@ -14,14 +14,6 @@ int main() {
     std::vector<equation*> myEquation = {&firstEq,&secondEq};
 
     class::mySystem sys = mySystem(myEquation);
-
-    //Type NomObjet = Type(paramètres constructeur);
-    //std::cout << "Mon hypothèse A: "<< A.toString() << std::endl;
-    //std::cout << "Mon hypothèse B: "<< B.toString() << std::endl;
-
-    //std::cout << "Mon equation eq1: "<< firstEq.toString() << std::endl;
-    //std::cout << "Mon equation eq2: "<< secondEq.toString() << std::endl;
-
 
     std::cout << "__Hypotheses : "<<std::endl;
     for(hypothese hypo : hypotheses){
